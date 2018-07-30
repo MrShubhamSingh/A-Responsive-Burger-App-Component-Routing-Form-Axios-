@@ -1,0 +1,33 @@
+.Input{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+.Label{
+     display:block;
+     font-weight:solid;
+     margin-bottom: 8px;
+}
+
+.InputElement{
+    outline:none;
+    padding:6px 5px;
+    display:block;
+    width:100%;
+    background-color: rgb(207, 201, 201);
+    font:inherit;
+    font-size: 15px;
+    border:1px solid rgb(178, 196, 183);
+    box-sizing: border-box;
+}
+
+.InputElement:focus{
+    outline:none;
+    background-color: rgb(238, 245, 139);
+}
+
+.InputElement:hover{
+    outline: none;
+    background-color: rgb(231, 182, 118);
+}

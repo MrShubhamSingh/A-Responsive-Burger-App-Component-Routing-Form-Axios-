@@ -1,0 +1,37 @@
+.finalOrder{
+    margin:20px auto;
+    text-align: center;
+    width:'auto';
+    box-shadow: 0 2px 3px 2px rgb(248, 175, 18);
+    box-sizing: border-box;
+    padding: 20px;
+  
+}
+
+@media(min-width:600px){
+    .finalOrder{
+        width:500px;
+   }
+
+}
+
+@media(max-width:599px){
+    .smallBox{
+        width:300px;
+        height:200px;
+        padding:0px;
+    }
+}
+
+.button{
+    background-color: rgb(240, 143, 63);
+    padding : 3px 3px;
+    color:rgb(150, 9, 9);
+    font:inherit;
+    border: 1px solid rgb(196, 105, 45);
+    box-shadow: 0 2px 3px 2px rgb(238, 107, 0);
+}
+
+.button:hover{
+    background-color: rgb(224, 169, 67);
+}
